@@ -33,17 +33,13 @@ h1 {
     text-align: center;
   } */
 
-.test{
-    display: inline;
-}
-
 .test .captioned-image {
     display:inline-block;
-    width:445px;
+    width: 450px;
 }
 
 .test figure {
-    width: 445px;
+    width: 430px;
     display:block;
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,28 +51,41 @@ h1 {
     opacity: 80%;
 }
 
+.homepage-imgs {
+    height: 400px;
+    width:400px;
+}
+
 a {
     text-decoration: none;
 }
 
-/* Lasagna Page */
-img.lasagna-img {
+/* Recipe Pages */
+#lasagna-img,
+#tiramisu-img,
+#bbread-img {
     width: 100%;
     height: auto;
     border: 0;
 }
 
-.lasagna-subs {
+.lasagna-subs,
+.tiramisu-subs,
+.bbread-subs {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 800;
     color: #444444;
 }
 
-#ingred-list,
-#instruct-list,
-#lasagna-desc {
+.lasanga-info,
+.tira-info,
+.bbread-info {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: black;
+}
+
+li {
+    margin-bottom: 6px;
 }
