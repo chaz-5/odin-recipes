@@ -8,6 +8,11 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-weight: 600;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Homepage */
@@ -17,6 +22,8 @@ h1 {
     font-size: 30px;
     font-weight: 800;
     color: #444444;
+    background-color: transparent;
+    padding-top: 20px;
 }
 
 .img-container {
@@ -48,6 +55,10 @@ a {
 }
 
 /* Recipe Pages */
+body {
+    margin: 0;
+}
+
 #lasagna-img,
 #tiramisu-img,
 #bbread-img {
@@ -73,6 +84,39 @@ a {
     color: black;
 }
 
-li {
+li, ol, ul {
     margin-bottom: 6px;
+    background-color: white;
+}
+
+ol, ul {
+    border: 5px solid white;
+}
+
+.content-text {
+    width: 1000px;
+    padding-bottom: 100px;
+    margin: auto;
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#descriptions-title {
+    border-top: 15px solid white;
+}
+
+#lasagna-text,
+#tira-text,
+#bbread-text {
+    background-color: white;
+    padding: 5px;
+    width: 950px;
+    margin: auto;
+    text-align: center;
 }
